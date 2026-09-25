@@ -1,0 +1,9 @@
+has_cat = False
+
+
+if has_cat:
+    print("I have a cat")
+else:
+    print("I don't have a cat")
+
+print("Have a nice day")
