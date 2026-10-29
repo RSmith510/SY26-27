@@ -1,0 +1,14 @@
+import random
+secret = random.randint(1,100)
+guess = int(input("Enter a number from 1-100 "))
+count = 1
+
+while guess != secret:
+    if guess > secret:
+        print("Too High")
+    else:
+        print("Too Low")
+    guess = int(input("Enter a number from 1-100 "))
+    count = count + 1
+
+print("CONGRATS!!!" + str(count) + " guesses")

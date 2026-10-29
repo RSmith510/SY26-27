@@ -1,0 +1,32 @@
+def head():
+    print("---'''|||'''---")
+    print("|             |")
+    print("|   0     0   |")
+    print("|             |")
+    print("\     ---     /")
+    print(" \     -     / ")
+    print("  \_________/  ")
+
+def body():
+    print("      | |      ")
+    print("/-----   -----|")
+    print("| ||       || |")
+    print("| ||       || |")
+    print("| ||       || |")
+    print("| ||       || |")
+    print("| ||       || |")
+    print("| ||       || |")
+    print("bup|       |pud")
+
+def legs():
+    print("   |   /|  |   ")
+    print("   |   ||  |   ")
+    print("   |   ||  |   ")
+    print("   |   ||  |   ")
+    print("   |   ||  |   ")
+    print("   |   ||  |   ")
+    print("  [===b][d===] ")
+
+head()
+body()
+legs()

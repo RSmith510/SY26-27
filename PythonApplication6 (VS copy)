@@ -1,0 +1,22 @@
+def add(num1, num2):
+    num1 = -num1
+    return num1 + num2
+
+"""
+x = int(input("first number: "))
+y = int(input("second number: "))
+"""
+
+if add(-5,5) != 0:
+    print("Test 1 Failed")
+if add(0,5) != 5:
+    print("Test 2 Failed")
+
+"""
+print(add(x, y))
+print(add(-5, 5))
+print(add(-5, -5))
+print(add(-10, -10))
+print(add(20, 20))
+print(add(2, 4))
+"""

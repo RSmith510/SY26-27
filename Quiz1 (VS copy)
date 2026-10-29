@@ -1,0 +1,28 @@
+"""
+#1
+print(4+5*3)
+
+#2
+print(7/2+6)
+
+#3
+num = 6
+name = "Isabella"
+print(name + ":" + str(num))
+
+#4
+print("hi" * 8)
+"""
+
+print("=== APEX ENTERTAINMENT ORDER KIOSK ===")
+name = input("Enter customer first name: ")
+tickets = int(input("Enter number of Admission Tickets ($18): "))
+meals = int(input("Enter number of Arcade Meal Passes ($12): "))
+print()
+print("------------------------------")
+print("RECIPT FOR: " + name)
+print("Admission Total: " + str((18*tickets)))
+print("Meal Pass Total: " + str((12*meals)))
+print("GRAND TOTAL DUE: " + str(((18*tickets)+(12*meals))))
+print("------------------------------")
+print("Thank you for visiting Apex Entertainment!")
